@@ -1,19 +1,23 @@
-# FitBot---ChatBot
-A chat-bot that will help you to trace your daily meals and your gym progress. You can ask for a table of macronutrients but also for help with gym exercise and wellness.
-# 💪 FitBot - Il tuo GymBro
+# 💪 FitBot - Your AI Gym Bro
 
-Un assistente virtuale in Python e Streamlit che calcola i tuoi macronutrienti e ti motiva come un vero compagno di allenamento!
+A Python and Streamlit-powered virtual assistant that tracks your daily meals, visualizes your macronutrients, and motivates you like a true workout partner! 
 
-## 🛠️ Come far partire l'app sul tuo PC
+Whether you need a detailed table of your macros or scientifically-backed advice for your next gym session, FitBot is here to spot you.
 
-Per far funzionare FitBot in locale, segui questi semplici passaggi:
+## 🛠️ How to run FitBot locally
 
-1. **Scarica il progetto:** Clona questo repository o scarica il file ZIP.
-2. **Installa le dipendenze:** Apri il terminale nella cartella del progetto e scrivi:
-   `pip install streamlit google-generativeai pandas plotly python-dotenv`
-3. **Configura l'API Key:**
-   - Vai su [Google AI Studio](https://aistudio.google.com/) e ottieni una chiave API gratuita.
-   - Crea un file chiamato esattamente `.env` nella cartella principale del progetto.
-   - Scrivi dentro il file: `GEMINI_API_KEY=la_tua_chiave_qui`
-4. **Avvia l'allenamento!** Nel terminale, esegui il comando:
-   `streamlit run app.py`
+Follow these simple steps to get your AI assistant up and running on your machine:
+
+1. **Get the code:** Clone this repository or download the ZIP file.
+2. **Install dependencies:** Open your terminal in the project folder and run:
+   ```bash
+   pip install streamlit google-generativeai pandas plotly python-dotenv
+   ```
+3. **Set up your API Key:**
+   - Get a free API key from [Google AI Studio](https://aistudio.google.com/).
+   - Create a file named exactly `.env` in the root folder of the project.
+   - Add this single line inside the file: `GEMINI_API_KEY=your_api_key_here`
+4. **Start the workout!** Run the app by typing:
+   ```bash
+   streamlit run app.py
+   ```
