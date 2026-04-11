@@ -22,4 +22,3 @@ Follow these simple steps to get your AI assistant up and running on your machin
    streamlit run app.py
    ```
 Created by: Madeo Giuseppe
-E-mail: giuseppe.madeo99@gmail.com
